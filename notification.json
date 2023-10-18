@@ -1,0 +1,23 @@
+{
+  "notify_type": "drc_file_upload_complete",
+  "org_id": "Organization ID",
+  "org_name": "Organization Name",
+  "prj_id": "Project ID",
+  "prj_name": "Project Name",
+  "sn": "Device SN",
+  "task_info": {
+    "task_type": "Task type",
+    "tags": ["Tag1", "Tag2"]
+  },
+  "files": [
+    {
+      "name": "Name",
+      "key": "Alibaba Cloud key"
+    }
+  ],
+  "folder_info": {
+    "expected_file_count": 0,
+    "uploaded_file_count": 0,
+    "folder_id": 0
+  }
+}

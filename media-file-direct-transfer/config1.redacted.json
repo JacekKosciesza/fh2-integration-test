@@ -1,0 +1,22 @@
+{
+  "access_key_id": "XXXXXXXXXXXXXXXXXXXX",
+  "access_key_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "region": "eu-west-1",
+  "bucket": "flighthub2-xxxxxxxxxxxx",
+  "arn": "arn:aws:iam::xxxxxxxxxxxx:role/flighthub2",
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": ["s3:PutObject"],
+        "Resource": [
+          "arn:aws:s3:::flighthub2-xxxxxxxxxxxx/*",
+          "arn:aws:s3:::flighthub2-xxxxxxxxxxxx"
+        ]
+      }
+    ]
+  },
+  "role_session_name": "flighthub2",
+  "provider": "aws"
+}

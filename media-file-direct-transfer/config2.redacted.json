@@ -1,0 +1,10 @@
+{
+  "access_key_id": "AKIARKOP3E7GTIJXPF65",
+  "access_key_secret": "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",
+  "region": "eu-west-1",
+  "bucket": "flighthub2-091167074253",
+  "arn": "arn:aws:iam::091167074253:role/flighthub2",
+  "policy": "{ \"Version\": \"2012-10-17\", \"Statement\": [ { \"Effect\": \"Allow\", \"Action\": [\"s3:PutObject\"], \"Resource\": [ \"arn:aws:s3:::flighthub2-091167074253/*\", \"arn:aws:s3:::flighthub2-091167074253\" ] } ] }",
+  "role_session_name": "flighthub2",
+  "provider": "aws"
+}

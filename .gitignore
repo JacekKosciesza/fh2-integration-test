@@ -1,0 +1,4 @@
+/node_modules
+/media-file-direct-transfer/config*[^redacted].json
+.env
+file.log
